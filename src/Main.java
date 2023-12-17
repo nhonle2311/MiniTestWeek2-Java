@@ -54,8 +54,6 @@ public class Main  {
             sumPriceFictionbook += fictionBook[j].getPrice();
             if (Objects.equals(fictionBook[j].getCategory(), category)){
                 countCategory++;
-            }else {
-                System.out.println(fictionBook[j].getCategory());
             }
             if (fictionBook[j].getPrice() < 100){
                 countFictionBookPrice++;
